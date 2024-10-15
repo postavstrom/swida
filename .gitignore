@@ -1,0 +1,33 @@
+.venv/
+.idea/
+
+# FE
+swida_frontend/logs
+swida_frontend/*.log
+swida_frontend/npm-debug.log*
+swida_frontend/yarn-debug.log*
+swida_frontend/yarn-error.log*
+swida_frontend/pnpm-debug.log*
+swida_frontend/lerna-debug.log*
+
+swida_frontend/node_modules
+swida_frontend/.DS_Store
+swida_frontend/dist
+swida_frontend/dist-ssr
+swida_frontend/coverage
+swida_frontend/*.local
+
+swida_frontend/.vscode/*
+swida_frontend/!.vscode/extensions.json
+swida_frontend/.idea
+swida_frontend/*.suo
+swida_frontend/*.ntvs*
+swida_frontend/*.njsproj
+swida_frontend/*.sln
+swida_frontend/*.sw?
+
+swida_frontend/*.tsbuildinfo
+swida_frontend/build/
+
+# BE
+transport_management/node_modules/
